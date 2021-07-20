@@ -13,3 +13,9 @@ export class AppComponent {
     this.value = true;
   }
 }
+
+
+
+// follow IFS patterns
+// do QTO and OFL?
+// see what
