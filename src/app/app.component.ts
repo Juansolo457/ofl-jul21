@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ofl-jul21';
+  public value: boolean = true;
+
+  public ngOnInit() {
+    this.value = true;
+  }
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f2ef0fdb-5d29-43e5-acee-b3c1595a472a" name="onecu@LAPTOP-G67BJLP0 2021-07-20T00:40:01.283Z" runUser="onecu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="3abca012-9ed6-4e20-8b58-9ece86952894"/>
+  <Times creation="2021-07-20T00:40:01.283Z" queuing="2021-07-20T00:40:01.283Z" start="2021-07-20T00:40:01.283Z" finish="2021-07-20T00:40:01.283Z"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should init the Test Suite" id="c605ca29-4b59-4582-b27c-b74fec18b470" storage="src\app\app.component.spec.ts">
+      <Execution id="284c1061-b3d1-466a-a7ca-4bd7d2c5fcd3"/>
+      <TestMethod codeBase="src\app\app.component.spec.ts" name="Should init the Test Suite" className="No suite"/>
+    </UnitTest>
+    <UnitTest name="AppComponent / constructor / should create the app" id="3c4a3897-cfb0-4760-b090-17ac757ec540" storage="src\app\app.component.spec.ts">
+      <Execution id="d2f01b69-29db-49f1-98d1-5be7679dc75e"/>
+      <TestMethod codeBase="src\app\app.component.spec.ts" name="AppComponent / constructor / should create the app" className="AppComponent"/>
+    </UnitTest>
+    <UnitTest name="AppComponent / ngOnInit / should initialize the component" id="2809d263-6686-41e7-a1f5-0d83d74265e3" storage="src\app\app.component.spec.ts">
+      <Execution id="e182ee48-4f8b-4243-9c60-23e2c574109a"/>
+      <TestMethod codeBase="src\app\app.component.spec.ts" name="AppComponent / ngOnInit / should initialize the component" className="AppComponent"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c605ca29-4b59-4582-b27c-b74fec18b470" executionId="284c1061-b3d1-466a-a7ca-4bd7d2c5fcd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="3c4a3897-cfb0-4760-b090-17ac757ec540" executionId="d2f01b69-29db-49f1-98d1-5be7679dc75e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2809d263-6686-41e7-a1f5-0d83d74265e3" executionId="e182ee48-4f8b-4243-9c60-23e2c574109a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="c605ca29-4b59-4582-b27c-b74fec18b470" executionId="284c1061-b3d1-466a-a7ca-4bd7d2c5fcd3" testName="Should init the Test Suite" computerName="LAPTOP-G67BJLP0" duration="00:00:00.636" startTime="2021-07-20T00:40:02.831Z" endTime="2021-07-20T00:40:03.467Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult testId="3c4a3897-cfb0-4760-b090-17ac757ec540" executionId="d2f01b69-29db-49f1-98d1-5be7679dc75e" testName="AppComponent / constructor / should create the app" computerName="LAPTOP-G67BJLP0" duration="00:00:00.636" startTime="2021-07-20T00:40:03.467Z" endTime="2021-07-20T00:40:04.103Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult testId="2809d263-6686-41e7-a1f5-0d83d74265e3" executionId="e182ee48-4f8b-4243-9c60-23e2c574109a" testName="AppComponent / ngOnInit / should initialize the component" computerName="LAPTOP-G67BJLP0" duration="00:00:00.636" startTime="2021-07-20T00:40:04.103Z" endTime="2021-07-20T00:40:04.739Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </Results>
+</TestRun>
