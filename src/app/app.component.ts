@@ -18,4 +18,4 @@ export class AppComponent {
 
 // follow IFS patterns
 // do QTO and OFL?
-// see what
+// see how it turns out
